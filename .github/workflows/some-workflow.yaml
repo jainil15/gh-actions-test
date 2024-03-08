@@ -21,6 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: goodbye world
-        run: cat temp.txt
+        run: echo "goodbye world"
         shell: bash
 
